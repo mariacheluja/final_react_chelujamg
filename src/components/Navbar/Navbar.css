@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Cambia el fondo de la barra de navegación a azul */
+.navbar-brand {
+    background-color: #fd16c31a;
+    /* Color azul de Bootstrap */
+}
+
+
+/* Cambia el color del texto de la barra de navegación a blanco */
+.navbar-nav .nav-link {
+    color: #531ee66e;
+    /* Color blanco */
+}
+.navbar-toggler {
+    background-color: #fdc71663;
+    color:bisque;
+    /* Color naranja de Bootstrap */
+}
+
+/* Cambia el color del enlace activo a amarillo */
+.navbar-nav nav-link active {
+    color: #ffc107;
+    /* Color amarillo de Bootstrap */
+}
+.d-flex.btn btn-outline-success {
+    color: #ffc107;
+    /* Color amarillo de Bootstrap */
+}
