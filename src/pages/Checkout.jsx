@@ -1,5 +1,5 @@
 import { doc, getFirestore, updateDoc, writeBatch } from 'firebase/firestore'
-
+import React from 'react'
 import { useParams } from 'react-router-dom'
 /*
     batch.commit(): La función commit se utiliza para ejecutar todas las operaciones de escritura en el batch en Firestore. 

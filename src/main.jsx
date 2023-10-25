@@ -1,11 +1,12 @@
 //importaciones primero arriba de la pagina. Todo lo que necesito de React va aqui.
 
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from 'react-dom/client'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from "./App.jsx"; // Importa el componente principal
 import { BrowserRouter } from "react-router-dom";
+
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -25,12 +26,10 @@ const firebaseConfig = {
 // Initialize Firebase, no hace falta crearla como constante.
 initializeApp(firebaseConfig);
 
-//import "bootstrap/dist/css/bootstrap.min.css"
 ReactDOM.createRoot(document.getElementById('root')).render(
-  
   <React.StrictMode>
-  <BrowserRouter>
-    <App />
+    <BrowserRouter>
+      < App />
     </BrowserRouter>
   </React.StrictMode>,
-);
+)

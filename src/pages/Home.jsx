@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import ItemListContainer from "../components/Items/ItemListContainer";
 import { useParams } from 'react-router';
 import { getFirestore, doc, getDoc } from 'firebase/firestore';
+import ReactDOM from 'react-dom/client'
 import { initializeApp } from 'firebase/app';
 
 

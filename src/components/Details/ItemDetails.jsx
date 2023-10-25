@@ -7,9 +7,9 @@ import styles from './style.module.css'
 const ItemDetail = ({ item, onAdd}) => {
 
     return (
-        <div>
-            <h5>{item.title}</h5>
-            <img src={item.imagen} alt={item.title} />
+        <div className={styles.contianer}>
+            <h5 className={styles.title} >{item.name}</h5>
+            <img src={item.image} className={styles.image}/>
 
             <p>
                 Descripción: {item.descripción}

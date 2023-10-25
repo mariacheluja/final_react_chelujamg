@@ -1,4 +1,4 @@
-
+import React from 'react'
 import UserDetail from '../components/Users/UserDetail'
 
 const UserProfile = () => {
